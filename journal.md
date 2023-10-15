@@ -26,3 +26,11 @@ Git add sur mon fichier sh
 puis git commit -m "pour commenter"
 puis utiliser un git push
 
+____________________________________________
+#Depot exercice du 18 octobre
+
+J'ai tenté de faire les exercices où l'on doit créer des scripts avec des arguments. Ayant obtenu une sortie pour un seul script sur 3, cela n'a pas été chose facile.
+Je mélange la façon de faire entre python et bash. Et l'utilisation des arguments dans le programme n'est pas encore assimilé.
+EN regardant sur internet, j'ai vu que l'on peut utiliser plusieurs arguments dans une seule ligne de commande, mais je n'ai pas compris comment appliquer cela. Et peut être créer une variable en ajoutant une variable à l'intéieur ? 
+En ce qui concerne l'utilisation des commandes git, je commence à comprendre tant que je ne fais pas d'erreur. Lorsque j'aurai besoin de refaire un reset ou revert, j'aurai surement quelques difficultés.
+_________________________________________
