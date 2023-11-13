@@ -49,3 +49,45 @@ L'utilisation des commandes git : je me débrouille mieux, mais je rencontre tou
 Avec mes camarades on a échangé à propos du mot sur lequel travailler pour le projet. On s'est questionnées à propos du mot "genre" qui veut dire beaucoup de choses en français. Mais dans d'autres langues, il a un terme spécifique pour chaque sens.
 Nous n'avons pas trop su si "genre" serait compliqué à annalyser dans un corpus français. On s'est finalement dit que nous allions travailler avec le mot "fesival". 
 
+________________________________________
+##Seance 6 
+Depot du mini projet
+
+Pour cet exercice, j'ai essayé de lire chaque ligne contenu dans mon fichier URL.
+J'ai voulus vérifier la validité des adresses html. J'ai tenté pour les adresses qui n'avait pas de "https" au debut de leur adresse. Mais je n'ai pas réussis, donc j'ai enlevé cette partie.
+J'ai créé une variable code_html pour pouvoir récupérer seulement le code de la page URL. La commande curl me permet de récupérer des informations sur les urls. 
+option -L pour suivre les redirections de page internet, comme la page plurital par exemple, à laquelle on peut acceder par plusieurs urls. 
+
+Je n'ai pas réussi à m'occuper des erreurs de code
+option -s pour ne pas afficher ces erreurs
+
+option -o permet de sauvegarder des contenus. Mais la suite /dev/null permet de ne pas stocker ces informations. 
+option -w et http_code me permet d'afficher le code recherche de la page HTTP
+
+la variable encodageURL me permet d'avoir accès à l'encodage de la page
+HEAD m'apporte les informations concernant la page internet pour chaque ligne. Avec egrep je cherche uniquement les parties concernant charset avec la commande cut je coupe pour avoir uniquement l'encodage qui se trouve après le = que je délimite avec -d
+
+Cependant, j'ai oublié de remettre la suite de mon code. C'est à dire la suite de ma boucle, qui si l'url n'est pas valide, il m'informe que cela ne semble pas être une url valide.
+
+___________________________________________
+
+## Seance 7
+
+Dépot du mini projet avec partie html
+
+Lors du dernier cours on a corriger la partie pour les codes HTTP et les encodages des urls. Puis on a entre vu comment réaliser un tableau html. 
+Pour fair cet exercice, on reprends la manière d'écrire d'html avec les balises que l'on souhaite utiliser, en mettant une commande echo devant, et un >> $tableau_URL pour que les informations entre à chaque tour de boucle dans le tableau.
+Il faut bien écrire 2 chevrons >> pour ne pas écraser les informations uqi ont été entré avant la dernière. 
+
+Avant tout je déclare les valises quivont être utilisé. Je réalise une vérification des arguments nécessaire au lancement du script. 
+Pour la création du titre de la page html et de l'entête du tableau ; je place les commandes echo en dehors de la boucle pour qu'elles n'apparaissent qu'une seule fois. Ensuite, je mets mes écho + balises html dans une boucle while qui dois lire chaque ligne de mon fichier URL. 
+
+Amelioration du SCRIPT pendant que j'écris dans mon journal. 
+
+J'ai changé certaines choses dan smon programme. J'ai placé tous les echo qu doivent apparaitre une seule fois au dessus du while read.
+Puis dans le while read j'ai laissé la partie analyse fait lors du précédent cours. 
+Mais ai ajouté un echo pour le tableau html pour qu'il boucle sur chaque URL du fichier URL , afin d'avoir les informations concernants les URL grace à mes variables, que j'utilise dans le tableau entre mes balises. 
+
+Je n'ai pas retrouvé comment envoyé mon fichier tableau html dans mon dossier tableau créée pour cela. Donc les résultats pour le moment apparaissent où se trouvent mes programmes. A CHANGER AU PLUS VITE. 
+
+MOn script à l'air de fonctionner pour le premier url mais pas pour els autres. La boucle ne fonctionne donc pas correctement. 
