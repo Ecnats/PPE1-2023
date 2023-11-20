@@ -1,16 +1,22 @@
-#!/usr/bin/env bash
-#verification de l'argument
-if [ $# -ne 1 ]
-then
-	echo "ON utilise 1 argument"
-	exit
+#!/bin/bash
+
+if [ $# -ne 2 ]; then
+    echo "Utilisation : $0 <fichier_URL> <tableau_HTML>"
+    exit 1
 fi
+
 URL=$1
+tableau_URL=$2
+
 N=1
 OK=0
 NOK=0
 
-#pas besoin d'un for element in URL
+# Création du fichier HTML
+echo "<html><head><meta charset='utf-8'></head>
+<body>" > $tableau_URL
+
+# Lecture du fichier d'URL
 while read -r line; do
     # Titre du tableau
     echo "<h3> TABLEAU DES URLS</h3>" >> $tableau_URL;
