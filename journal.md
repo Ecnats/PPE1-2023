@@ -91,3 +91,16 @@ Mais ai ajouté un echo pour le tableau html pour qu'il boucle sur chaque URL du
 Je n'ai pas retrouvé comment envoyé mon fichier tableau html dans mon dossier tableau créée pour cela. Donc les résultats pour le moment apparaissent où se trouvent mes programmes. A CHANGER AU PLUS VITE. 
 
 MOn script à l'air de fonctionner pour le premier url mais pas pour els autres. La boucle ne fonctionne donc pas correctement. 
+
+_______________________________________________________
+
+## Seance 8
+
+Depot et Mise à jour de divers fichiers et dossiers en lien avec le mini projet à finaliser. 
+
+Aujourd'hui j'ai procéder à la mise en forme de ma page github web, en utilisant le langage html et css. Ayant fait plusieurs cours à ce sujet, j'ai utilisé des pages et des codes couleurs dont je m'étais servis. 
+La nouvelle découverte est le site BULMA, qui permet d'aller un peu plus vite pour agencer une page internet.
+Ce travail m'a permis de me rendre compte d'une erreur dans mon tableau d'URL, car j'avais mis un < tr > en trop, ce qui me renvoyait un tableau avec des lignes en trop. Cela m'a pris du temps car je pensais que le problème étit lié à la taille du tableau et/ou des colonnes, ce qui m'a fait essayer pleins de choses pour pouvoir les modifier et faire en sorte que toutes les lignes se mettent à l'endroit voulu.. toute cette énergie utilisé pour que ce ne soit que la faute d'une balise en trop .. 
+J'ai toujours du mal à utiliser les commandes git reset et revert, lorsque je fais une erreur dans mes commits ou dans mes tags. 
+
+En ce qui concerne le projet de groupe à l'heure actuelle nous n'avons toujours pas décidé dans quel type de site internet nous allions chercher notre mot "héritage", bien que nous en aillons besoin pour le prochain cours .. 
