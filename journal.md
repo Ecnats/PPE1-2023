@@ -104,3 +104,27 @@ Ce travail m'a permis de me rendre compte d'une erreur dans mon tableau d'URL, c
 J'ai toujours du mal à utiliser les commandes git reset et revert, lorsque je fais une erreur dans mes commits ou dans mes tags. 
 
 En ce qui concerne le projet de groupe à l'heure actuelle nous n'avons toujours pas décidé dans quel type de site internet nous allions chercher notre mot "héritage", bien que nous en aillons besoin pour le prochain cours .. 
+
+
+______________________________________________________
+
+## Seance 10
+
+Après plusieurs tentatives pour réussir le concordancier, Jeevya est celle qui a finalement trouvé un moyen de le faire fonctionner. Nous avons
+ tenté les premières fois avec la commande sed, mais nous arrivions seulement à  afficher le contexte gauche et la cible mais pas le contexte droit.
+Jeevya a réussi en utilisant BASE_REMATCH pour pouvoir extraire un groupe de capture de la regex mise juste avant. 
+Personnellement sur mon ordinateur, cela ne fonctionne pas. J'ai du mal à suivre le rythme du groupe, car je perds du temps à essayé d'adapter le 
+code à mon pc. On remarque également, que d'un ordinateur à un autre malgré que nous ayons les mêmes dossiers avec le même contenu (bien sur nous 
+adaptons le code en fonction de l'ordinateur), nous n'avons pas toujours les mêmes résultats en sortis. 
+Pour le code itrameur, avec le fichier anglais, j'ai beaucoup de balises <text> vide, mais mes camarades n'ont pas ce soucis. 
+
+
+Une de mes collegues de travail est très à l'aise et rapide avec le code. Je me sents mal à l'aise, car elle semble très bien assimiler les choses,
+ et je me sent comme un poid lourd à côté. 
+Néanmoins, je tente de faire des tâches au mieux, de proposer et partager ce que j'essaie au groupe. Tel que lorsque nous avions des difficultés 
+pour réussir à afficher les parties gauche et droite du concordancier. Ou pour faire le regex sur notre motif. C'est un travail qui pour moi est 
+compliqué et demande de la communication. Je pense que parfois nous en manquons. Nous tentons de travailler ensemble à distance, mais cela est 
+compliqué pour moi car je ne peux pas partager mon écran lorsque l'on fait des visios. 
+
+
+_____________________________________________________
